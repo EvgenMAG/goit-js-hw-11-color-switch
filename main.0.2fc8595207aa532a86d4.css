@@ -1,0 +1,1 @@
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}div{display:flex;justify-content:center}button{margin:10px;width:100px;height:30px;font-size:large;border:3px solid grey;border-radius:30px;outline:none;transition:transform .1s ease-in-out}button:hover{background-color:tomato;transform:scale(1.2)}
