@@ -40,10 +40,5 @@ function onStart() {
 
 function onStop() {
   clearInterval(intervalId);
-  cleanScreen();
   intervalId = null;
 }
-
-const cleanScreen = () => {
-  refsBtn.body.style.backgroundColor = '';
-};
